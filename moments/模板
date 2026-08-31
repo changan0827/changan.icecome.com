@@ -1,0 +1,16 @@
+---
+order: -1
+title: 标题
+author: 作者
+date: 2025-03-07T18:00:00+08:00
+link: 链接
+link_text: 文本
+video: 
+  - 视频链接
+pictures: 
+  - https://cdn.jsdmirror.cn/gh/icecome/img@main/1000034129.webp
+category:
+  - 说说
+tags:
+  - 生活点滴
+---

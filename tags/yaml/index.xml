@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>YAML on 长安的个人博客</title><link>https://changan.icecome.com/tags/yaml/</link><description>Recent content in YAML on 长安的个人博客</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Wed, 04 Mar 2026 00:00:00 +0800</lastBuildDate><atom:link href="https://changan.icecome.com/tags/yaml/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo 博客写作指南（五）：YAML 和 TOML 中的引号使用规则</title><link>https://changan.icecome.com/posts/hugo-writing-guide-05-yaml-toml-quotes/</link><pubDate>Wed, 04 Mar 2026 00:00:00 +0800</pubDate><guid>https://changan.icecome.com/posts/hugo-writing-guide-05-yaml-toml-quotes/</guid><description>&lt;h1 id="hugo-博客写作指南五yaml-和-toml-中的引号使用规则"&gt;Hugo 博客写作指南（五）：YAML 和 TOML 中的引号使用规则&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;本文是 Hugo 博客写作指南系列的第五篇，详细说明 YAML 和 TOML 配置文件中引号的正确使用规则。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在 Hugo 博客写作中，我们会接触到两种配置文件格式：&lt;/p&gt;</description></item></channel></rss>

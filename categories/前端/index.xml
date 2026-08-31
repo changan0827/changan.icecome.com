@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>前端 on 长安的个人博客</title><link>https://changan.icecome.com/categories/%E5%89%8D%E7%AB%AF/</link><description>Recent content in 前端 on 长安的个人博客</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Mon, 31 Aug 2026 07:56:33 +0000</lastBuildDate><atom:link href="https://changan.icecome.com/categories/%E5%89%8D%E7%AB%AF/index.xml" rel="self" type="application/rss+xml"/><item><title>CSS Flexbox布局详解</title><link>https://changan.icecome.com/posts/css/css-flexbox/</link><pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate><guid>https://changan.icecome.com/posts/css/css-flexbox/</guid><description>&lt;h2 id="什么是flexbox"&gt;什么是Flexbox&lt;/h2&gt;
+&lt;p&gt;Flexbox是CSS3中引入的一种新的布局模式，它提供了一种更加有效的方式来对容器中的子项进行排列、对齐和分配空间。&lt;/p&gt;
+&lt;h2 id="基本概念"&gt;基本概念&lt;/h2&gt;
+&lt;h3 id="容器和项目"&gt;容器和项目&lt;/h3&gt;
+&lt;p&gt;使用Flexbox布局的元素称为Flex容器（flex container），它的所有子元素自动成为容器成员，称为Flex项目（flex item）。&lt;/p&gt;</description></item><item><title>JavaScript异步编程</title><link>https://changan.icecome.com/posts/css/javascript-async/</link><pubDate>Sat, 15 Feb 2025 00:00:00 +0000</pubDate><guid>https://changan.icecome.com/posts/css/javascript-async/</guid><description>&lt;h2 id="异步编程概述"&gt;异步编程概述&lt;/h2&gt;
+&lt;p&gt;JavaScript是单线程语言，但它通过异步编程机制来处理耗时操作，如网络请求、文件读写等。&lt;/p&gt;
+&lt;h2 id="回调函数"&gt;回调函数&lt;/h2&gt;
+&lt;p&gt;最原始的异步编程方式：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-javascript" data-lang="javascript"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#815ba4"&gt;function&lt;/span&gt; &lt;span style="color:#06b6ef"&gt;fetchData&lt;/span&gt;(&lt;span style="color:#06b6ef"&gt;callback&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#06b6ef"&gt;setTimeout&lt;/span&gt;(() =&amp;gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#06b6ef"&gt;callback&lt;/span&gt;(&lt;span style="color:#48b685"&gt;&amp;#39;数据&amp;#39;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }, &lt;span style="color:#f99b15"&gt;1000&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#06b6ef"&gt;fetchData&lt;/span&gt;(&lt;span style="color:#815ba4"&gt;function&lt;/span&gt;(&lt;span style="color:#06b6ef"&gt;data&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#06b6ef"&gt;console&lt;/span&gt;.&lt;span style="color:#06b6ef"&gt;log&lt;/span&gt;(&lt;span style="color:#06b6ef"&gt;data&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;});
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;回调地狱问题：&lt;/p&gt;</description></item></channel></rss>

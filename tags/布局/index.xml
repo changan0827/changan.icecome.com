@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>布局 on 长安的个人博客</title><link>https://changan.icecome.com/tags/%E5%B8%83%E5%B1%80/</link><description>Recent content in 布局 on 长安的个人博客</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Mon, 31 Aug 2026 07:56:33 +0000</lastBuildDate><atom:link href="https://changan.icecome.com/tags/%E5%B8%83%E5%B1%80/index.xml" rel="self" type="application/rss+xml"/><item><title>CSS Flexbox布局详解</title><link>https://changan.icecome.com/posts/css/css-flexbox/</link><pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate><guid>https://changan.icecome.com/posts/css/css-flexbox/</guid><description>&lt;h2 id="什么是flexbox"&gt;什么是Flexbox&lt;/h2&gt;
+&lt;p&gt;Flexbox是CSS3中引入的一种新的布局模式，它提供了一种更加有效的方式来对容器中的子项进行排列、对齐和分配空间。&lt;/p&gt;
+&lt;h2 id="基本概念"&gt;基本概念&lt;/h2&gt;
+&lt;h3 id="容器和项目"&gt;容器和项目&lt;/h3&gt;
+&lt;p&gt;使用Flexbox布局的元素称为Flex容器（flex container），它的所有子元素自动成为容器成员，称为Flex项目（flex item）。&lt;/p&gt;</description></item></channel></rss>

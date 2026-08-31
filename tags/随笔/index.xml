@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>随笔 on 长安的个人博客</title><link>https://changan.icecome.com/tags/%E9%9A%8F%E7%AC%94/</link><description>Recent content in 随笔 on 长安的个人博客</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Mon, 31 Aug 2026 07:56:33 +0000</lastBuildDate><atom:link href="https://changan.icecome.com/tags/%E9%9A%8F%E7%AC%94/index.xml" rel="self" type="application/rss+xml"/><item><title>我的第一篇文章</title><link>https://changan.icecome.com/posts/my-first-post/</link><pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate><guid>https://changan.icecome.com/posts/my-first-post/</guid><description>&lt;h2 id="欢迎来到我的博客"&gt;欢迎来到我的博客&lt;/h2&gt;
+&lt;p&gt;这是我使用 Hugo 创建的第一篇文章。&lt;/p&gt;
+&lt;h3 id="hugo-是什么"&gt;Hugo 是什么？&lt;/h3&gt;
+&lt;p&gt;Hugo 是一个用 Go 语言编写的静态网站生成器，具有以下特点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;快速&lt;/strong&gt;：构建速度极快&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;灵活&lt;/strong&gt;：支持多种内容格式&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;简单&lt;/strong&gt;：易于安装和使用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="代码示例"&gt;代码示例&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#815ba4"&gt;def&lt;/span&gt; &lt;span style="color:#06b6ef"&gt;hello_world&lt;/span&gt;():
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(&lt;span style="color:#48b685"&gt;&amp;#34;Hello, Hugo!&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#815ba4"&gt;if&lt;/span&gt; &lt;span style="color:#ef6155"&gt;__name__&lt;/span&gt; &lt;span style="color:#5bc4bf"&gt;==&lt;/span&gt; &lt;span style="color:#48b685"&gt;&amp;#34;__main__&amp;#34;&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; hello_world()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="引用"&gt;引用&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;一级引用：作是思考的最好方式。通过文字，我们可以整理思绪，记录灵感。&lt;/p&gt;</description></item></channel></rss>

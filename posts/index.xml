@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 长安的个人博客</title><link>https://changan.icecome.com/posts/</link><description>Recent content in Posts on 长安的个人博客</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Mon, 31 Aug 2026 07:56:33 +0000</lastBuildDate><atom:link href="https://changan.icecome.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo 博客写作指南（一）：Front Matter 基础属性详解</title><link>https://changan.icecome.com/posts/hugo-writing-guide-01-frontmatter/</link><pubDate>Wed, 04 Mar 2026 00:00:00 +0800</pubDate><guid>https://changan.icecome.com/posts/hugo-writing-guide-01-frontmatter/</guid><description>&lt;h1 id="hugo-博客写作指南一front-matter-基础属性详解"&gt;Hugo 博客写作指南（一）：Front Matter 基础属性详解&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;本文是 Hugo 博客写作指南系列的第一篇，详细介绍 Front Matter 的基本属性和使用方法。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在开始写作之前，了解 Hugo 的 Front Matter 是非常重要的。Front Matter 是 Markdown 文件顶部的元数据区域，用于定义文章的标题、日期、分类、标签等属性。&lt;/p&gt;</description></item><item><title>Hugo 博客写作指南（二）：hugo.toml 配置详解</title><link>https://changan.icecome.com/posts/hugo-writing-guide-02-configuration/</link><pubDate>Wed, 04 Mar 2026 00:00:00 +0800</pubDate><guid>https://changan.icecome.com/posts/hugo-writing-guide-02-configuration/</guid><description>&lt;h1 id="hugo-博客写作指南二hugotoml-配置详解"&gt;Hugo 博客写作指南（二）：hugo.toml 配置详解&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;本文是 Hugo 博客写作指南系列的第二篇，详细介绍 hugo.toml 配置文件的各项参数和使用方法。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;code&gt;hugo.toml&lt;/code&gt; 是 Hugo 站点的主配置文件，控制着整个博客的行为和外观。本文将基于 ChangAn 主题，详细解析每个配置项的作用。&lt;/p&gt;</description></item><item><title>Hugo 博客写作指南（三）：Markdown 基础用法详解</title><link>https://changan.icecome.com/posts/hugo-writing-guide-03-markdown/</link><pubDate>Wed, 04 Mar 2026 00:00:00 +0800</pubDate><guid>https://changan.icecome.com/posts/hugo-writing-guide-03-markdown/</guid><description>&lt;h1 id="hugo-博客写作指南三markdown-基础用法详解"&gt;Hugo 博客写作指南（三）：Markdown 基础用法详解&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;本文是 Hugo 博客写作指南系列的第三篇，详细介绍 Markdown 语法在 Hugo 博客中的使用方法。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Markdown 是一种轻量级标记语言，易于阅读和编写，是博客写作的理想选择。本文将介绍在 ChangAn 主题中使用 Markdown 的各种技巧。&lt;/p&gt;</description></item><item><title>Obsidian Git Sync 插件使用指南</title><link>https://changan.icecome.com/posts/obsidian-git-sync-plugin-guide/</link><pubDate>Fri, 13 Mar 2026 00:00:00 +0800</pubDate><guid>https://changan.icecome.com/posts/obsidian-git-sync-plugin-guide/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;本文提供 Obsidian Git Sync 插件的完整使用指南，从安装配置到日常操作，帮助你轻松为 Obsidian 笔记添加 Git 版本控制。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="-目录"&gt;📋 目录&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://changan.icecome.com/posts/obsidian-git-sync-plugin-guide/#%e5%ae%89%e8%a3%85%e6%8f%92%e4%bb%b6"&gt;安装插件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://changan.icecome.com/posts/obsidian-git-sync-plugin-guide/#%e5%88%9d%e5%a7%8b%e5%8c%96%e8%ae%be%e7%bd%ae"&gt;初始化设置&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://changan.icecome.com/posts/obsidian-git-sync-plugin-guide/#%e6%97%a5%e5%b8%b8%e6%93%8d%e4%bd%9c%e6%8c%87%e5%8d%97"&gt;日常操作指南&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://changan.icecome.com/posts/obsidian-git-sync-plugin-guide/#%e8%87%aa%e5%8a%a8%e5%90%8c%e6%ad%a5%e8%ae%be%e7%bd%ae"&gt;自动同步设置&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://changan.icecome.com/posts/obsidian-git-sync-plugin-guide/#%e7%8a%b6%e6%80%81%e6%a0%8f%e4%bd%bf%e7%94%a8"&gt;状态栏使用&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://changan.icecome.com/posts/obsidian-git-sync-plugin-guide/#%e5%bf%ab%e6%8d%b7%e5%91%bd%e4%bb%a4"&gt;快捷命令&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://changan.icecome.com/posts/obsidian-git-sync-plugin-guide/#%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%98%e8%a7%a3%e5%86%b3"&gt;常见问题解决&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://changan.icecome.com/posts/obsidian-git-sync-plugin-guide/#%e6%9c%80%e4%bd%b3%e5%ae%9e%e8%b7%b5"&gt;最佳实践&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="安装插件"&gt;安装插件&lt;/h2&gt;
+&lt;h3 id="方法-1-手动安装"&gt;方法 1: 手动安装&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;前往 &lt;a href="https://github.com/icecome/obsidian-plugin-git-sync/releases"&gt;Releases&lt;/a&gt; 下载最新版本的压缩包文件&lt;/li&gt;
+&lt;li&gt;在 Obsidian 库插件目录中解压缩：&lt;code&gt;你的库/.obsidian/plugins/git-sync/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;重启 Obsidian 并在设置中启用插件&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="方法-2-从源码构建高级用户"&gt;方法 2: 从源码构建（高级用户）&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#776e71"&gt;# 克隆仓库&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git clone https://github.com/icecome/obsidian-plugin-git-sync.git
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;cd obsidian-plugin-git-sync
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#776e71"&gt;# 安装依赖&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;npm install
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#776e71"&gt;# 构建&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;npm run build
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#776e71"&gt;# 开发模式（监视文件变化）&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;npm run dev
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="开启并初始化仓库"&gt;开启并初始化仓库&lt;/h2&gt;
+&lt;p&gt;安装完成后，需要开启插件并初始化 Git 仓库：&lt;/p&gt;</description></item><item><title>Hugo 博客写作指南（六）：Chroma 代码高亮主题完整指南</title><link>https://changan.icecome.com/posts/hugo-writing-guide-06-chroma-themes/</link><pubDate>Thu, 05 Mar 2026 00:00:00 +0800</pubDate><guid>https://changan.icecome.com/posts/hugo-writing-guide-06-chroma-themes/</guid><description>&lt;h1 id="hugo-博客写作指南六chroma-代码高亮主题完整指南"&gt;Hugo 博客写作指南（六）：Chroma 代码高亮主题完整指南&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;本文是 Hugo 博客写作指南系列的第六篇，详细介绍 Hugo Chroma 代码高亮器的所有可用主题，以及如何配置和选择适合的主题。&lt;/p&gt;</description></item><item><title>Hugo 博客写作指南（四）：ChangAn 主题特色功能详解</title><link>https://changan.icecome.com/posts/hugo-writing-guide-04-theme-features/</link><pubDate>Wed, 04 Mar 2026 00:00:00 +0800</pubDate><guid>https://changan.icecome.com/posts/hugo-writing-guide-04-theme-features/</guid><description>&lt;h1 id="hugo-博客写作指南四changan-主题特色功能详解"&gt;Hugo 博客写作指南（四）：ChangAn 主题特色功能详解&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;本文是 Hugo 博客写作指南系列的第四篇，详细介绍 ChangAn 主题的特色功能和使用技巧。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;ChangAn 是一个现代化的 Hugo 博客主题，基于 astro-gyoza 风格设计，具有简洁、可爱、快速的特点。本文将详细介绍主题的各项特色功能。&lt;/p&gt;</description></item><item><title>Hugo 博客写作指南（五）：YAML 和 TOML 中的引号使用规则</title><link>https://changan.icecome.com/posts/hugo-writing-guide-05-yaml-toml-quotes/</link><pubDate>Wed, 04 Mar 2026 00:00:00 +0800</pubDate><guid>https://changan.icecome.com/posts/hugo-writing-guide-05-yaml-toml-quotes/</guid><description>&lt;h1 id="hugo-博客写作指南五yaml-和-toml-中的引号使用规则"&gt;Hugo 博客写作指南（五）：YAML 和 TOML 中的引号使用规则&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;本文是 Hugo 博客写作指南系列的第五篇，详细说明 YAML 和 TOML 配置文件中引号的正确使用规则。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在 Hugo 博客写作中，我们会接触到两种配置文件格式：&lt;/p&gt;</description></item><item><title>Git 常用命令大全</title><link>https://changan.icecome.com/posts/git-commands/</link><pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate><guid>https://changan.icecome.com/posts/git-commands/</guid><description>&lt;h2 id="初始化配置"&gt;初始化配置&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git config --global user.name &lt;span style="color:#48b685"&gt;&amp;#34;用户名&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git config --global user.email &lt;span style="color:#48b685"&gt;&amp;#34;邮箱&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="基本命令"&gt;基本命令&lt;/h2&gt;
+&lt;h3 id="初始化仓库"&gt;初始化仓库&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git init
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="克隆仓库"&gt;克隆仓库&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git clone &amp;lt;url&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="添加文件"&gt;添加文件&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git add . &lt;span style="color:#776e71"&gt;# 添加所有文件&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git add &amp;lt;file&amp;gt; &lt;span style="color:#776e71"&gt;# 添加指定文件&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="提交更改"&gt;提交更改&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git commit -m &lt;span style="color:#48b685"&gt;&amp;#34;提交信息&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="查看状态"&gt;查看状态&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git status
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="查看日志"&gt;查看日志&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git log
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git log --oneline &lt;span style="color:#776e71"&gt;# 简洁模式&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="分支操作"&gt;分支操作&lt;/h2&gt;
+&lt;h3 id="创建分支"&gt;创建分支&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git branch &amp;lt;name&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="切换分支"&gt;切换分支&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git checkout &amp;lt;name&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git switch &amp;lt;name&amp;gt; &lt;span style="color:#776e71"&gt;# Git 2.23+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="创建并切换分支"&gt;创建并切换分支&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git checkout -b &amp;lt;name&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git switch -c &amp;lt;name&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="合并分支"&gt;合并分支&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git merge &amp;lt;name&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="删除分支"&gt;删除分支&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git branch -d &amp;lt;name&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="远程操作"&gt;远程操作&lt;/h2&gt;
+&lt;h3 id="添加远程仓库"&gt;添加远程仓库&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git remote add origin &amp;lt;url&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="推送代码"&gt;推送代码&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git push origin main
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git push -u origin main &lt;span style="color:#776e71"&gt;# 首次推送&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="拉取代码"&gt;拉取代码&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git pull origin main
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="总结"&gt;总结&lt;/h2&gt;
+&lt;p&gt;掌握这些 Git 命令，可以满足日常开发的大部分需求。&lt;/p&gt;</description></item><item><title>Hugo 博客搭建指南</title><link>https://changan.icecome.com/posts/hugo-blog-guide/</link><pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate><guid>https://changan.icecome.com/posts/hugo-blog-guide/</guid><description>&lt;h2 id="hugo-简介"&gt;Hugo 简介&lt;/h2&gt;
+&lt;p&gt;Hugo 是一个用 Go 语言编写的静态网站生成器，它以速度快、易用性强著称。&lt;/p&gt;
+&lt;h2 id="安装-hugo"&gt;安装 Hugo&lt;/h2&gt;
+&lt;h3 id="windows"&gt;Windows&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;choco install hugo-extended
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="macos"&gt;macOS&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;brew install hugo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="创建新站点"&gt;创建新站点&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hugo new site myblog
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;cd myblog
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="添加主题"&gt;添加主题&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git init
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="创建文章"&gt;创建文章&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hugo new posts/my-first-post.md
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="本地预览"&gt;本地预览&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hugo server -D
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;访问 http://localhost:1313 即可预览博客。&lt;/p&gt;</description></item><item><title>项目介绍</title><link>https://changan.icecome.com/posts/project-intro/</link><pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate><guid>https://changan.icecome.com/posts/project-intro/</guid><description>&lt;h2 id="项目背景"&gt;项目背景&lt;/h2&gt;
+&lt;p&gt;这是一个基于 Hugo 搭建的长安的个人博客项目，主要用于记录技术学习和生活感悟。&lt;/p&gt;
+&lt;h2 id="技术栈"&gt;技术栈&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;静态站点生成器&lt;/strong&gt;: Hugo&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;主题&lt;/strong&gt;: 自定义主题&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;部署&lt;/strong&gt;: GitHub Pages&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="功能特点"&gt;功能特点&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;响应式设计，支持移动端&lt;/li&gt;
+&lt;li&gt;多种布局样式切换&lt;/li&gt;
+&lt;li&gt;深色/浅色主题切换&lt;/li&gt;
+&lt;li&gt;文章搜索功能&lt;/li&gt;
+&lt;li&gt;友链展示&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="未来计划"&gt;未来计划&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 添加评论系统&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 添加文章目录&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 添加阅读统计&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 优化 SEO&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>我的第一篇文章</title><link>https://changan.icecome.com/posts/my-first-post/</link><pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate><guid>https://changan.icecome.com/posts/my-first-post/</guid><description>&lt;h2 id="欢迎来到我的博客"&gt;欢迎来到我的博客&lt;/h2&gt;
+&lt;p&gt;这是我使用 Hugo 创建的第一篇文章。&lt;/p&gt;
+&lt;h3 id="hugo-是什么"&gt;Hugo 是什么？&lt;/h3&gt;
+&lt;p&gt;Hugo 是一个用 Go 语言编写的静态网站生成器，具有以下特点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;快速&lt;/strong&gt;：构建速度极快&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;灵活&lt;/strong&gt;：支持多种内容格式&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;简单&lt;/strong&gt;：易于安装和使用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="代码示例"&gt;代码示例&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#815ba4"&gt;def&lt;/span&gt; &lt;span style="color:#06b6ef"&gt;hello_world&lt;/span&gt;():
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(&lt;span style="color:#48b685"&gt;&amp;#34;Hello, Hugo!&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#815ba4"&gt;if&lt;/span&gt; &lt;span style="color:#ef6155"&gt;__name__&lt;/span&gt; &lt;span style="color:#5bc4bf"&gt;==&lt;/span&gt; &lt;span style="color:#48b685"&gt;&amp;#34;__main__&amp;#34;&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; hello_world()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="引用"&gt;引用&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;一级引用：作是思考的最好方式。通过文字，我们可以整理思绪，记录灵感。&lt;/p&gt;</description></item><item><title>开源项目推荐</title><link>https://changan.icecome.com/posts/learn/projects/</link><pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate><guid>https://changan.icecome.com/posts/learn/projects/</guid><description>&lt;h2 id="前端项目"&gt;前端项目&lt;/h2&gt;
+&lt;h3 id="vuejs"&gt;Vue.js&lt;/h3&gt;
+&lt;p&gt;Vue.js是一个渐进式JavaScript框架，易于上手，功能强大。&lt;/p&gt;
+&lt;h3 id="react"&gt;React&lt;/h3&gt;
+&lt;p&gt;React是Facebook开发的UI库，组件化开发的首选。&lt;/p&gt;
+&lt;h2 id="后端项目"&gt;后端项目&lt;/h2&gt;
+&lt;h3 id="gin"&gt;Gin&lt;/h3&gt;
+&lt;p&gt;Gin是一个Go语言的Web框架，性能优异。&lt;/p&gt;</description></item><item><title>学习笔记</title><link>https://changan.icecome.com/posts/learn/notes/</link><pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate><guid>https://changan.icecome.com/posts/learn/notes/</guid><description>&lt;h2 id="编程语言"&gt;编程语言&lt;/h2&gt;
+&lt;h3 id="javascript"&gt;JavaScript&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ES6+新特性&lt;/li&gt;
+&lt;li&gt;异步编程&lt;/li&gt;
+&lt;li&gt;设计模式&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="python"&gt;Python&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;数据分析&lt;/li&gt;
+&lt;li&gt;Web开发&lt;/li&gt;
+&lt;li&gt;自动化脚本&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="go"&gt;Go&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;并发编程&lt;/li&gt;
+&lt;li&gt;Web开发&lt;/li&gt;
+&lt;li&gt;微服务&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="框架学习"&gt;框架学习&lt;/h2&gt;
+&lt;h3 id="前端框架"&gt;前端框架&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Vue.js&lt;/li&gt;
+&lt;li&gt;React&lt;/li&gt;
+&lt;li&gt;Angular&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="后端框架"&gt;后端框架&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Express&lt;/li&gt;
+&lt;li&gt;Django&lt;/li&gt;
+&lt;li&gt;Gin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="数据库"&gt;数据库&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;MySQL&lt;/li&gt;
+&lt;li&gt;PostgreSQL&lt;/li&gt;
+&lt;li&gt;MongoDB&lt;/li&gt;
+&lt;li&gt;Redis&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>CSS Flexbox布局详解</title><link>https://changan.icecome.com/posts/css/css-flexbox/</link><pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate><guid>https://changan.icecome.com/posts/css/css-flexbox/</guid><description>&lt;h2 id="什么是flexbox"&gt;什么是Flexbox&lt;/h2&gt;
+&lt;p&gt;Flexbox是CSS3中引入的一种新的布局模式，它提供了一种更加有效的方式来对容器中的子项进行排列、对齐和分配空间。&lt;/p&gt;
+&lt;h2 id="基本概念"&gt;基本概念&lt;/h2&gt;
+&lt;h3 id="容器和项目"&gt;容器和项目&lt;/h3&gt;
+&lt;p&gt;使用Flexbox布局的元素称为Flex容器（flex container），它的所有子元素自动成为容器成员，称为Flex项目（flex item）。&lt;/p&gt;</description></item><item><title>JavaScript异步编程</title><link>https://changan.icecome.com/posts/css/javascript-async/</link><pubDate>Sat, 15 Feb 2025 00:00:00 +0000</pubDate><guid>https://changan.icecome.com/posts/css/javascript-async/</guid><description>&lt;h2 id="异步编程概述"&gt;异步编程概述&lt;/h2&gt;
+&lt;p&gt;JavaScript是单线程语言，但它通过异步编程机制来处理耗时操作，如网络请求、文件读写等。&lt;/p&gt;
+&lt;h2 id="回调函数"&gt;回调函数&lt;/h2&gt;
+&lt;p&gt;最原始的异步编程方式：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-javascript" data-lang="javascript"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#815ba4"&gt;function&lt;/span&gt; &lt;span style="color:#06b6ef"&gt;fetchData&lt;/span&gt;(&lt;span style="color:#06b6ef"&gt;callback&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#06b6ef"&gt;setTimeout&lt;/span&gt;(() =&amp;gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#06b6ef"&gt;callback&lt;/span&gt;(&lt;span style="color:#48b685"&gt;&amp;#39;数据&amp;#39;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }, &lt;span style="color:#f99b15"&gt;1000&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#06b6ef"&gt;fetchData&lt;/span&gt;(&lt;span style="color:#815ba4"&gt;function&lt;/span&gt;(&lt;span style="color:#06b6ef"&gt;data&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#06b6ef"&gt;console&lt;/span&gt;.&lt;span style="color:#06b6ef"&gt;log&lt;/span&gt;(&lt;span style="color:#06b6ef"&gt;data&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;});
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;回调地狱问题：&lt;/p&gt;</description></item></channel></rss>

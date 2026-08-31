@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on 长安的个人博客</title><link>https://changan.icecome.com/tags/hugo/</link><description>Recent content in Hugo on 长安的个人博客</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Mon, 31 Aug 2026 07:56:33 +0000</lastBuildDate><atom:link href="https://changan.icecome.com/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo 博客写作指南（一）：Front Matter 基础属性详解</title><link>https://changan.icecome.com/posts/hugo-writing-guide-01-frontmatter/</link><pubDate>Wed, 04 Mar 2026 00:00:00 +0800</pubDate><guid>https://changan.icecome.com/posts/hugo-writing-guide-01-frontmatter/</guid><description>&lt;h1 id="hugo-博客写作指南一front-matter-基础属性详解"&gt;Hugo 博客写作指南（一）：Front Matter 基础属性详解&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;本文是 Hugo 博客写作指南系列的第一篇，详细介绍 Front Matter 的基本属性和使用方法。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在开始写作之前，了解 Hugo 的 Front Matter 是非常重要的。Front Matter 是 Markdown 文件顶部的元数据区域，用于定义文章的标题、日期、分类、标签等属性。&lt;/p&gt;</description></item><item><title>Hugo 博客写作指南（二）：hugo.toml 配置详解</title><link>https://changan.icecome.com/posts/hugo-writing-guide-02-configuration/</link><pubDate>Wed, 04 Mar 2026 00:00:00 +0800</pubDate><guid>https://changan.icecome.com/posts/hugo-writing-guide-02-configuration/</guid><description>&lt;h1 id="hugo-博客写作指南二hugotoml-配置详解"&gt;Hugo 博客写作指南（二）：hugo.toml 配置详解&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;本文是 Hugo 博客写作指南系列的第二篇，详细介绍 hugo.toml 配置文件的各项参数和使用方法。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;code&gt;hugo.toml&lt;/code&gt; 是 Hugo 站点的主配置文件，控制着整个博客的行为和外观。本文将基于 ChangAn 主题，详细解析每个配置项的作用。&lt;/p&gt;</description></item><item><title>Hugo 博客写作指南（三）：Markdown 基础用法详解</title><link>https://changan.icecome.com/posts/hugo-writing-guide-03-markdown/</link><pubDate>Wed, 04 Mar 2026 00:00:00 +0800</pubDate><guid>https://changan.icecome.com/posts/hugo-writing-guide-03-markdown/</guid><description>&lt;h1 id="hugo-博客写作指南三markdown-基础用法详解"&gt;Hugo 博客写作指南（三）：Markdown 基础用法详解&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;本文是 Hugo 博客写作指南系列的第三篇，详细介绍 Markdown 语法在 Hugo 博客中的使用方法。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Markdown 是一种轻量级标记语言，易于阅读和编写，是博客写作的理想选择。本文将介绍在 ChangAn 主题中使用 Markdown 的各种技巧。&lt;/p&gt;</description></item><item><title>Hugo 博客写作指南（六）：Chroma 代码高亮主题完整指南</title><link>https://changan.icecome.com/posts/hugo-writing-guide-06-chroma-themes/</link><pubDate>Thu, 05 Mar 2026 00:00:00 +0800</pubDate><guid>https://changan.icecome.com/posts/hugo-writing-guide-06-chroma-themes/</guid><description>&lt;h1 id="hugo-博客写作指南六chroma-代码高亮主题完整指南"&gt;Hugo 博客写作指南（六）：Chroma 代码高亮主题完整指南&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;本文是 Hugo 博客写作指南系列的第六篇，详细介绍 Hugo Chroma 代码高亮器的所有可用主题，以及如何配置和选择适合的主题。&lt;/p&gt;</description></item><item><title>Hugo 博客写作指南（四）：ChangAn 主题特色功能详解</title><link>https://changan.icecome.com/posts/hugo-writing-guide-04-theme-features/</link><pubDate>Wed, 04 Mar 2026 00:00:00 +0800</pubDate><guid>https://changan.icecome.com/posts/hugo-writing-guide-04-theme-features/</guid><description>&lt;h1 id="hugo-博客写作指南四changan-主题特色功能详解"&gt;Hugo 博客写作指南（四）：ChangAn 主题特色功能详解&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;本文是 Hugo 博客写作指南系列的第四篇，详细介绍 ChangAn 主题的特色功能和使用技巧。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;ChangAn 是一个现代化的 Hugo 博客主题，基于 astro-gyoza 风格设计，具有简洁、可爱、快速的特点。本文将详细介绍主题的各项特色功能。&lt;/p&gt;</description></item><item><title>Hugo 博客写作指南（五）：YAML 和 TOML 中的引号使用规则</title><link>https://changan.icecome.com/posts/hugo-writing-guide-05-yaml-toml-quotes/</link><pubDate>Wed, 04 Mar 2026 00:00:00 +0800</pubDate><guid>https://changan.icecome.com/posts/hugo-writing-guide-05-yaml-toml-quotes/</guid><description>&lt;h1 id="hugo-博客写作指南五yaml-和-toml-中的引号使用规则"&gt;Hugo 博客写作指南（五）：YAML 和 TOML 中的引号使用规则&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;本文是 Hugo 博客写作指南系列的第五篇，详细说明 YAML 和 TOML 配置文件中引号的正确使用规则。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在 Hugo 博客写作中，我们会接触到两种配置文件格式：&lt;/p&gt;</description></item><item><title>Hugo 博客搭建指南</title><link>https://changan.icecome.com/posts/hugo-blog-guide/</link><pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate><guid>https://changan.icecome.com/posts/hugo-blog-guide/</guid><description>&lt;h2 id="hugo-简介"&gt;Hugo 简介&lt;/h2&gt;
+&lt;p&gt;Hugo 是一个用 Go 语言编写的静态网站生成器，它以速度快、易用性强著称。&lt;/p&gt;
+&lt;h2 id="安装-hugo"&gt;安装 Hugo&lt;/h2&gt;
+&lt;h3 id="windows"&gt;Windows&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;choco install hugo-extended
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="macos"&gt;macOS&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;brew install hugo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="创建新站点"&gt;创建新站点&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hugo new site myblog
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;cd myblog
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="添加主题"&gt;添加主题&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git init
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="创建文章"&gt;创建文章&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hugo new posts/my-first-post.md
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="本地预览"&gt;本地预览&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hugo server -D
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;访问 http://localhost:1313 即可预览博客。&lt;/p&gt;</description></item></channel></rss>

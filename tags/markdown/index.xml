@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Markdown on 长安的个人博客</title><link>https://changan.icecome.com/tags/markdown/</link><description>Recent content in Markdown on 长安的个人博客</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Wed, 04 Mar 2026 00:00:00 +0800</lastBuildDate><atom:link href="https://changan.icecome.com/tags/markdown/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo 博客写作指南（三）：Markdown 基础用法详解</title><link>https://changan.icecome.com/posts/hugo-writing-guide-03-markdown/</link><pubDate>Wed, 04 Mar 2026 00:00:00 +0800</pubDate><guid>https://changan.icecome.com/posts/hugo-writing-guide-03-markdown/</guid><description>&lt;h1 id="hugo-博客写作指南三markdown-基础用法详解"&gt;Hugo 博客写作指南（三）：Markdown 基础用法详解&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;本文是 Hugo 博客写作指南系列的第三篇，详细介绍 Markdown 语法在 Hugo 博客中的使用方法。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Markdown 是一种轻量级标记语言，易于阅读和编写，是博客写作的理想选择。本文将介绍在 ChangAn 主题中使用 Markdown 的各种技巧。&lt;/p&gt;</description></item></channel></rss>
